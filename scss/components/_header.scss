@@ -1,0 +1,20 @@
+.nav-item a{
+    list-style-type: none;
+    text-decoration: none;
+    padding: 8px;
+    color: white;
+}
+
+.nav-item a:hover {
+    text-decoration: overline;
+    color: rgb(255, 154, 230);
+    transition: 0.5s;
+}
+
+.nav-item a:active {
+    color: gray;
+}
+
+.nav-item a:not(.menu-link) {
+    color: rgb(255, 81, 217);
+}

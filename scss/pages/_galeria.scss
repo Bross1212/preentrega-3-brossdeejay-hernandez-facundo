@@ -1,0 +1,9 @@
+.foto {
+    cursor: default;
+    overflow: hidden;
+    transition: all 400ms ease;
+}
+.foto:hover {
+    transform: scale(1.05);
+    transition: 0.5s;
+}

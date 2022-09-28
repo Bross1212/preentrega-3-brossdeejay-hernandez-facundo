@@ -1,0 +1,14 @@
+{
+  "name": "preentrega-3-brossdeejay-hernandez-facundo",
+  "version": "1.0.0",
+  "description": "Tercera entrega del proyecto final",
+  "main": "index.js",
+  "scripts": {
+    "build-sass": "node-sass --include-path scss ./scss/estilo.scss ./estilos/estilos.css -w"
+  },
+  "author": "Hernandez Facundo",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^7.0.3"
+  }
+}
